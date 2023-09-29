@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                             %
+% AMOS ULTRA TEMPLATE 9000000 %
+%                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4,10pt]{article} 
+
+\usepackage{opticameet3} 
+
+\usepackage{amsmath,amssymb}
+\usepackage[printonlyused,footnote]{acronym}
+\usepackage{listings}
+\usepackage[]{hyperref} %pdflatex
+
+\definecolor{LinkColor}{rgb}{0,0,0.2}
+\hypersetup{%
+	colorlinks=true, % Aktivieren von farbigen Links im Dokument
+	linkcolor=LinkColor, % Farbe festlegen
+	citecolor=LinkColor,
+	filecolor=LinkColor,
+	menucolor=LinkColor,
+	urlcolor=LinkColor,
+	bookmarksnumbered=true % Überschriftsnummerierung im PDF Inhalt anzeigen.
+}
+
+\begin{document}
+
+\title{Title}
+
+\author{Amos Groß \normalfont{(\textit{mail@etud.univ-ubs.fr})}}
+
+\section{Title One}
+
+\subsection{Title One point one} 
+Some cool text
+
+\begin{thebibliography}{99} %% use BibTeX or add references manually
+
+\bibitem{gentle2006} J. E. Gentle, \textit{Random number generation and Monte Carlo methods (2nd ed.)}, New York: Springer, p. 38, ISBN 0-387-00178-6
+
+\end{thebibliography}
+
+\section*{Acronymns}
+\begin{acronym}[XXXXXXX]
+    \acro{GNU}{GNU's not Unix!} 
+\end{acronym}
+
+\end{document}
+
